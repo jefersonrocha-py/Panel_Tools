@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  painel-infra:
+    build: .                 # Indica que a imagem será construída a partir do Dockerfile
+    container_name: painel-infra
+    networks:
+      - web
+    ports:
+      - "8080:80"            # Mapeia a porta 8080 do host para a porta 80 do container
+    volumes:
+      - .:/usr/share/nginx/html # Mapeia o diretório local no container (opcional para edições locais)
+    restart: always          # Reinicia o container automaticamente, se necessário
+
+networks:
+  web:
+    external: true
