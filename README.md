@@ -42,7 +42,7 @@ A organização dos arquivos no projeto é a seguinte:
 2. **Como rodar o projeto:**
    - Clone este repositório:
      ```bash
-     git clone <URL_DO_REPOSITORIO>
+     git clone <URL_DO_AQUI_DO_REPOSITORIO>
      ```
    - Abra o arquivo `index.html` no navegador.
 
