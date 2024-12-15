@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Infraestrutura</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+  <header>
+    <h1> ETHERIUMTECH INFRAESTRUTURA</h1>
+    <p>Gestão de TI do Time Servidor</p>
+    <img src="assets/logo.svg" alt="Logo" id="logo">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+
+  </header>
+
+  <input type="text" id="search-bar" placeholder="Busque por ferramentas..." onkeyup="filterCards()">
+
+  <section>
+    <h2>Ambiente de Servidores | Docker | Cloud | DevOps</h2>
+    <div class="grid-container">
+      <div class="card">
+        <img src="icons/jira.svg" alt="Jira ServiceDesk" onerror="this.src='icons/fallback.svg'">
+        <p>Jira ServiceDesk - Chamados</p>
+      </div>
+      <div class="card">
+        <img src="icons/aws.svg" alt="AWS" onerror="this.src='icons/fallback.svg'">
+        <p>Painel da AWS</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Virtualização | Docker</h2>
+    <div class="grid-container">
+      <div class="card">
+        <img src="icons/vcenter.svg" alt="VCenter PRD" onerror="this.src='icons/fallback.svg'">
+        <p>VCenter PRD</p>
+      </div>
+      <div class="card">
+        <img src="icons/portainer.svg" alt="Portainer PRD" onerror="this.src='icons/fallback.svg'">
+        <p>Portainer PRD</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rede | Segurança</h2>
+    <div class="grid-container">
+      <div class="card">
+        <img src="icons/pfsense.svg" alt="pfSense" onerror="this.src='icons/fallback.svg'">
+        <p>Firewall pfSense</p>
+      </div>
+      <div class="card">
+        <img src="icons/huawei.svg" alt="Huawei Controladora" onerror="this.src='icons/fallback.svg'">
+        <p>Controladora Huawei</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
